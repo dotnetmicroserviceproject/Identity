@@ -12,5 +12,3 @@ dotnet pack src\User.Contracts\ --configuration Release -p:PackageVersion=$versi
 dotnet nuget push ..\packages\User.Contracts.$version.nupkg --api-key $gh_pat --source "github"
 
 ```
-
-
