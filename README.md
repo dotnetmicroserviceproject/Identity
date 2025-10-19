@@ -3,7 +3,7 @@
 ## Create and publish package
 
 ```powershell
-$version="1.0.2"
+$version="1.0.7"
 $owner="dotnetmicroserviceproject"
 $gh_pat="[PAT HERE]"
 
