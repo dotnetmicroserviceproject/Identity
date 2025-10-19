@@ -4,6 +4,12 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>disable</Nullable>
+    <PackageId>User.Contracts</PackageId> 
+    <Version>1.0.2</Version>
+    <PackageDescription>Contracts library for the User microservice</PackageDescription>
+    <Authors>Odedame Bright</Authors>
+    <Company>.NET Microservices</Company>
+    <RepositoryUrl>https://github.com/dotnetmicroserviceproject/user</RepositoryUrl>
   </PropertyGroup>
 
 </Project>
