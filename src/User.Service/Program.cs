@@ -52,7 +52,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnectionString")));
 
 // ✅ Register MassTransit with RabbitMQ
-builder.Services.AddMassTransitWithRabiitMq(retryConfigurator =>
+builder.Services.AddMassTransitWithMessageBroker(builder.Configuration ,retryConfigurator =>
 {
     retryConfigurator.Interval(3, TimeSpan.FromSeconds(5));
     retryConfigurator.Ignore(typeof(UnKnownUserException));
